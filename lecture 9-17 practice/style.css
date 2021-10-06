@@ -1,0 +1,89 @@
+header{
+	background-color: ;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+	background-color: hotpink;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "cursive", fantasy;
+	letter-spacing: 5px;
+	font-size: 30px;
+	text-shadow: black 2px 2px 2px ;
+
+}
+/** header **/
+nav a, nav a:visited{
+	text-decoration: none;
+	display: block;
+	border: 1px solid purple;
+	text-align: center;
+	background-color: hotpink;
+	width: 200px;
+	margin-bottom: 2px;
+	color: black;
+}
+
+nav a:hover, nav a:active{
+	background-color: deeppink;
+	color: white;
+}
+
+nav li{
+	list-style: none;
+}
+
+
+.center{
+	text-align: center;
+}
+
+#intro{
+	text-align: center;
+	background-color: gold;
+	color: black;
+}
+#intro div{
+	background-color: goldenrod;
+	font-size: 150%;
+	color: white;
+}
+#intro h2{
+	background-color: goldenrod;
+}
+/** On Sale Section **/
+
+#onsale{
+	background-color: yellowgreen;
+}
+
+#onsale > h2{
+	background-color: green;
+}
+
+#onsale span{
+	font-family: 'monospace', monospace;
+	color: green;
+
+}
+
+footer{
+	color: black;
+	text-align: center;
+}
+/** body **/
+
+body{
+	background-color: pink;
+	}
+
+
+
